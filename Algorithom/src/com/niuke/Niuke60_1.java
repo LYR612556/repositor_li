@@ -9,7 +9,7 @@ import java.util.Queue;
 /**
  * ≤„–Ú±È¿˙
  **/
-public class NiukeMore61_1 {
+public class Niuke60_1 {
     public static void main(String[] args) {
         TreeNode t1 = new TreeNode(5);
         TreeNode t2 = new TreeNode(3);
