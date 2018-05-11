@@ -1,0 +1,5 @@
+/test/*
+/target/*
+*.iml
+*.xml
+!pom.xml
