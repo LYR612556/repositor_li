@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.Deque;
 
 /**
+ *
  * 滑动窗口的最大值，使用栈辅助计算
  *
- * @param:
  **/
 public class Niuke65_2 {
     public static void main(String[] args) {
