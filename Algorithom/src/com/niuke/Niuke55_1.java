@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 字符流中第一个不重复的字符,!!!!!!!一定不要用static，有的OJ不通过，比如牛客
+ * https://my.oschina.net/liyurong/blog/1648986
  * created by liyurong
  **/
 public class Niuke55_1 {//helloworld
