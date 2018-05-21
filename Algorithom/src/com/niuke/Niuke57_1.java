@@ -3,8 +3,9 @@ package com.niuke;
 import com.source.ListNode;
 
 /**
- * 删除链表中的重复节点
- * 博客地址：https://my.oschina.net/liyurong/blog/1649023
+ * 鍒犻櫎閾捐〃涓殑閲嶅鑺傜偣
+ *
+ * 鍗氬鍦板潃锛歨ttps://my.oschina.net/liyurong/blog/1649023
  * created by liyurong
  **/
 public class Niuke57_1 {
