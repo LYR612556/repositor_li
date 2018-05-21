@@ -3,7 +3,7 @@ package com.niuke;
 /**
  * 构建乘积数组
  *
- * https://my.oschina.net/liyurong/blog/1648887
+ * 博客位置：https://my.oschina.net/liyurong/blog/1648887
  * created by liyurong
  **/
 public class Niuke52_1 {
