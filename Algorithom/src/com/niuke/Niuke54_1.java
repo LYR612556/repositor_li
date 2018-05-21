@@ -3,7 +3,7 @@ package com.niuke;
 /**
  * 表示数值的字符串
  *
- * https://my.oschina.net/liyurong/blog/1648968
+ * 博客位置：https://my.oschina.net/liyurong/blog/1648968
  * created by liyurong
  **/
 public class Niuke54_1 {
