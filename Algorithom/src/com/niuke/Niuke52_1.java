@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * 构建乘积数组
+ * 鏋勫缓涔樼Н鏁扮粍
  *
  * https://my.oschina.net/liyurong/blog/1648887
  * created by liyurong
