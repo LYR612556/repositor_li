@@ -7,7 +7,7 @@ import java.util.Arrays;
  * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1648766
  * created by liyurong
  **/
-public class Niuke46_1 {
+public class Niuke44_1 {
     public static void main(String[] args) {
         int[] nums1 = {1,3,2,6,4};
         System.out.println(isContinuous(nums1));
