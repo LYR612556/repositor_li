@@ -4,7 +4,7 @@ package com.niuke;
  * 左旋转字符串,三次翻转
  * created by liyurong
  **/
-public class Niuke42_1 {
+public class Niuke42_1_1 {
     public static void main(String[] args) {
         System.out.println(LeftRotateString("abcXYZdef",3));
     }
