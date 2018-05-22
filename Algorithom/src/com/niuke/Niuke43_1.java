@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * 和为S的两个数字,两数之和
+ * 博客地址：https://my.oschina.net/liyurong/blog/1648178
  * created by liyurong
  **/
 public class Niuke43_1 {
