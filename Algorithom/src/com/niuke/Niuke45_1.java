@@ -8,7 +8,7 @@ import java.util.List;
  * ²©¿ÍÎ»ÖÃ£ºhttps://my.oschina.net/liyurong/blog/1648777
  * created by liyurong
  **/
-public class Niuke47_1 {
+public class Niuke45_1 {
     public static void main(String[] args) {
         System.out.println(LastRemaining_Solution(6,3));
         System.out.println(LastRemaining_Solution(6,4));
