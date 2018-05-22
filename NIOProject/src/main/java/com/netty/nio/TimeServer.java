@@ -11,7 +11,6 @@ public class TimeServer {
     /**
      * @param args
      * @throws IOException
-     * ion
      */
     public static void main(String[] args) throws IOException {
         int port = 8080;

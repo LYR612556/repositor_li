@@ -18,7 +18,7 @@ public class MultiplexerTimeServer implements Runnable {
 
     private Selector selector;
 
-    private ServerSocketChannel servChannel;
+    private ServerSocketChannel serverSocketChannel;
 
     private volatile boolean stop;
 
@@ -30,11 +30,11 @@ public class MultiplexerTimeServer implements Runnable {
     public MultiplexerTimeServer(int port) {
         try {
             selector = Selector.open();
-            servChannel = ServerSocketChannel.open();
+            serverSocketChannel = ServerSocketChannel.open();
             //配置Channel的TCP参数
-            servChannel.configureBlocking(false);//异步非阻塞
-            servChannel.socket().bind(new InetSocketAddress(port), 1024);//绑定端口，并将backlog设置为1024，表示能够用于处理请求的队列长度
-            servChannel.register(selector, SelectionKey.OP_ACCEPT);//将通道注册到Selector，监听SelectionKey.OP_ACCEPT操作位
+            serverSocketChannel.configureBlocking(false);//异步非阻塞
+            serverSocketChannel.socket().bind(new InetSocketAddress(port), 1024);//绑定端口，并将backlog设置为1024，表示能够用于处理请求的队列长度
+            serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);//将通道注册到Selector，监听SelectionKey.OP_ACCEPT操作位
             System.out.println("The time server is start in port : " + port);
         } catch (IOException e) {
             e.printStackTrace();
@@ -93,7 +93,7 @@ public class MultiplexerTimeServer implements Runnable {
             if (key.isAcceptable()) {//处理请求信息
                 // Accept the new connection
                 ServerSocketChannel ssc = (ServerSocketChannel) key.channel();//获取通道
-                SocketChannel sc = ssc.accept();//接收请求并创建SocketChannel实例
+                SocketChannel sc = ssc.accept();//接收请求并创建SocketChannel实例,完成TCP的三次握手
                 sc.configureBlocking(false);//设置异步非阻塞
                 // Add the new connection to the selector
                 sc.register(selector, SelectionKey.OP_READ);
