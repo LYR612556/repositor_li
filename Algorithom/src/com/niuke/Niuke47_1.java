@@ -4,7 +4,7 @@ package com.niuke;
  * 不用加减乘除做加法
  * created by liyurong
  **/
-public class Niuke49_1 {
+public class Niuke47_1 {
     public static void main(String[] args) {
         System.out.println(Add(1,2));
     }
