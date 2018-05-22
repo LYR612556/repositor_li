@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1648178
  * created by liyurong
  **/
-public class Niuke43_1 {
+public class Niuke41_1 {
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5,6};
         ArrayList<Integer> res = FindNumbersWithSum(array,6);

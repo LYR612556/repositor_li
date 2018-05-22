@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1648172
  * created by liyurong
  **/
-public class Niuke42_1 {
+public class Niuke40_1 {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> res = FindContinuousSequence(100);
         for (int i = 0;i < res.size();i ++){

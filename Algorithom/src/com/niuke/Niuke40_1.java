@@ -5,7 +5,7 @@ package com.niuke;
  * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1648132
  * created by liyurong
  **/
-public class Niuke41_1 {
+public class Niuke39_1 {
     public static void main(String[] args) {
         int[] array = {1,1,2,2,3,4,4,5};
         int[] num1 = new int[1];

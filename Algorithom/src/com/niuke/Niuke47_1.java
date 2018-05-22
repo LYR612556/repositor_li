@@ -1,29 +1,18 @@
 package com.niuke;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * 孩子们的游戏(圆圈中最后剩下的数)
- * 博客位置：https://my.oschina.net/liyurong/blog/1648777
+ * 不用加减乘除做加法
  * created by liyurong
  **/
-public class Niuke47_1 {
+public class Niuke49_1 {
     public static void main(String[] args) {
-        System.out.println(LastRemaining_Solution(6,3));
-        System.out.println(LastRemaining_Solution(6,4));
+        System.out.println(Add(1,2));
     }
-    public static int LastRemaining_Solution(int n, int m) {
-        if (n == 0) return -1;//必须要考虑这一情况
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0;i < n;i ++){
-            list.add(i);
-        }
-        int i = 0;
-        while (list.size() > 1){
-            i = (i + m - 1) % list.size();
-            list.remove(i);
-        }
-        return list.get(0);
+    public static int Add(int num1,int num2) {//异或得到每位相加，与得到进位
+        if (num1 == 0) return num2;
+        if (num2 == 0) return num1;
+        int sum = num1 ^ num2;
+        int carry = (num1 & num2) << 1;
+        return Add(sum,carry);
     }
 }
