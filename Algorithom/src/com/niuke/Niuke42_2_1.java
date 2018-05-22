@@ -4,7 +4,7 @@ package com.niuke;
  * ·­×ªµ¥´ÊĞòÁĞ
  * created by liyurong
  **/
-public class Niuke43_1 {
+public class Niuke42_2_1 {
     public static void main(String[] args) {
         System.out.println(" ");
         System.out.println(ReverseSentence("student. a am I"));
