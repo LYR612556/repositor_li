@@ -7,7 +7,7 @@ import com.source.TreeNode;
  * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1506393
  * created by liyurong
  **/
-public class Niuke39_1 {
+public class Niuke39_1_1 {
     public static void main(String[] args) {
         TreeNode t1 = new TreeNode(1);
         TreeNode t2 = new TreeNode(2);
