@@ -27,8 +27,8 @@ public class Niuke36_1 {
         return count % 1000000007;
     }
     public static int merge(int[] array,int start,int mid,int end){
-        int[] tmp = new int[end - start + 1];
         int count = 0;
+        int[] tmp = new int[end - start + 1];
         if (start < end){
             int p = tmp.length - 1;
             int p1 = mid;
@@ -48,9 +48,9 @@ public class Niuke36_1 {
             while (p2 >= mid + 1){
                 tmp[p --] = array[p2 --];
             }
-            for (int i = 0;i < tmp.length;i ++){
-                array[start + i] = tmp[i];
-            }
+        }
+        for (int i = 0;i < tmp.length;i ++){
+            array[i + start] = tmp[i];
         }
         return count % 1000000007;
     }
