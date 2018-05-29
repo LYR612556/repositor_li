@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 /**
- * 最小的K个数，借助大根堆堆
+ * 最小的K个数，借助大根堆
+ * 博客位置：https://my.oschina.net/liyurong/blog/1632292
  * created by liyurong
  **/
 public class Niuke30_2 {
