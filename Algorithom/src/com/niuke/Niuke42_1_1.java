@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * 	左旋转字符串,三次翻转
+ * 左旋转字符串,三次翻转
  * created by liyurong
  **/
 public class Niuke42_1_1 {
