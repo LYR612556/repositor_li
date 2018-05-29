@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * ·­×ªµ¥´ÊĞòÁĞ
+ * ç¿»è½¬å•è¯åºåˆ—
  * created by liyurong
  **/
 public class Niuke42_2_1 {
