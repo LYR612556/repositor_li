@@ -1,8 +1,8 @@
 package com.niuke;
 
 /**
- * ��1+2+3+...+n
- * ����λ�ã�https://my.oschina.net/liyurong/blog/1648786
+ * 不用加减和判断语句计算1+2+3+...+n,重点面试
+ * 博客代码位置://my.oschina.net/liyurong/blog/1648786
  * created by liyurong
  **/
 public class Niuke46_1 {

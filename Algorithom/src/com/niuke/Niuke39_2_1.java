@@ -3,7 +3,7 @@ package com.niuke;
 import com.source.TreeNode;
 
 /**
- * 二叉树的深度
+ * 浜屽弶鏍戠殑娣卞害 
  * created by liyurong
  **/
 public class Niuke39_2_1 {

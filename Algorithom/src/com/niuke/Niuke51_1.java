@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 数组中的重复数字
+ * 鏁扮粍涓噸澶嶇殑鏁板瓧
  *
  * created by liyurong
  **/
