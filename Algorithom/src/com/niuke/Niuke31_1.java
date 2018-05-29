@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * 连续子数组的最大和
+ * 杩炵画瀛愭暟缁勭殑鏈�澶у拰
  * created by liyurong
  **/
 public class Niuke31_1 {
