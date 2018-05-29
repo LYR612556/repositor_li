@@ -1,12 +1,12 @@
 package com.niuke;
 
 /**
- * Êı×éÖĞ³öÏÖ´ÎÊı³¬¹ıÒ»°ëµÄÊı×Ö,¸ù¾İÊı×éÌØµã£¬Êı×éÖĞ³¬¹ıÒ»°ëµÄÊı£¬¿Ï¶¨±ÈÆäÓàËùÓĞÊı¼ÓÆğÀ´¶à
- * ²©¿ÍÎ»ÖÃ£ºhttps://my.oschina.net/liyurong/blog/915707£¬ÆäÖĞµÄÍÆ¾Ù·¨´æÔÚÎÊÌâ£¬Ó¦Ê¹ÓÃ±¾ÌâµÄ½â·¨
- * Êı×éÖĞ´óÓÚn/3µÄÊı£ºhttps://my.oschina.net/liyurong/blog/1591542
+ * æ•°ç»„ä¸­å‡ºç°æ¬¡æ•°è¶…è¿‡ä¸€åŠçš„æ•°å­—,æ ¹æ®æ•°ç»„ç‰¹ç‚¹ï¼Œæ•°ç»„ä¸­è¶…è¿‡ä¸€åŠçš„æ•°ï¼Œè‚¯å®šæ¯”å…¶ä½™æ‰€æœ‰æ•°åŠ èµ·æ¥å¤š
+ * åšå®¢ä½ç½®ï¼šhttps://my.oschina.net/liyurong/blog/915707ï¼Œå…¶ä¸­çš„æ¨ä¸¾æ³•å­˜åœ¨é—®é¢˜ï¼Œåº”ä½¿ç”¨æœ¬é¢˜çš„è§£æ³•
+ * æ•°ç»„ä¸­å¤§äºn/3çš„æ•°ï¼šhttps://my.oschina.net/liyurong/blog/1591542
  * created by liyurong
  **/
-public class Niuke_29_1 {
+public class Niuke29_1 {
     public static void main(String[] args){
         //int[] numbers = {1,2,3,2,4,2,5,2,3};//0
         //int[] numbers = {1,2,3,2,4,2,5,2,2};//2
@@ -27,7 +27,7 @@ public class Niuke_29_1 {
                 count --;
             }
         }
-        //ÅĞ¶ÏÊÇ·ñÊıÁ¿³¬¹ıÒ»°ë
+        //åˆ¤æ–­æ˜¯å¦æ•°é‡è¶…è¿‡ä¸€åŠ
         count = 0;
         for (int i = 0;i < array.length;i ++){
             if (array[i] == majority){
