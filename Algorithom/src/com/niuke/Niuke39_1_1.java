@@ -3,8 +3,8 @@ package com.niuke;
 import com.source.TreeNode;
 
 /**
- * Æ½ºâ¶ş²æÊ÷
- * ²©¿ÍµØÖ·£ºhttps://my.oschina.net/liyurong/blog/1506393
+ * åˆ¤æ–­å¹³è¡¡äºŒå‰æ ‘
+ * åšå®¢ä»£ç ä½ç½®ï¼šhttps://my.oschina.net/liyurong/blog/1506393
  * created by liyurong
  **/
 public class Niuke39_1_1 {
