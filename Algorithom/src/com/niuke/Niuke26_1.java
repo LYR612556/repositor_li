@@ -3,7 +3,7 @@ package com.niuke;
 import com.source.RandomListNode;
 
 /**
- * 复杂链表的复制
+ * 复杂链表的复制，另一种方法是借助辅助的map
  * 博客位置：https://my.oschina.net/liyurong/blog/1545380
  * created by liyurong
  **/
