@@ -22,6 +22,12 @@ public class TimeClient {
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap b = new Bootstrap();
+            /**
+             * LineBasedFrameDecoder 的工作原理：以此遍历ByteBuf中的可读字节，判断看是否有“\n”或者“\r\n”，如果有，
+             * 就在此位置结束，从可读索引到结束为止区间的字节就成了一行。
+             * StringDecoder 将接收到的对象转换成字符串，然后继续调用后面的handler。
+             * LineBasedFrameDecoder+StringDecoder组合就是按行切换的文本解码器
+             */
             b.group(group).channel(NioSocketChannel.class)
                     .option(ChannelOption.TCP_NODELAY, true)
                     .handler(new ChannelInitializer<SocketChannel>() {
