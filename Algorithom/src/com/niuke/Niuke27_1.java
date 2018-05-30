@@ -3,7 +3,7 @@ package com.niuke;
 import com.source.TreeNode;
 
 /**
- * 二叉搜索树与双向链表
+ * 二叉搜索树与双向链表的转换
  * 博客位置：https://my.oschina.net/liyurong/blog/1631592
  * created by liyurong
  **/
