@@ -1,6 +1,5 @@
 package com.netty.tcpfault;
 
-import com.netty.basicnetty.TimeClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -20,16 +19,15 @@ public class TimeClient {
         // 配置客户端NIO线程组
         EventLoopGroup group = new NioEventLoopGroup();
         try {
-            //辅助启动类
             Bootstrap b = new Bootstrap();
-            //配置辅助启动类，匿名内部类实现handler初始化
             b.group(group).channel(NioSocketChannel.class)
                     .option(ChannelOption.TCP_NODELAY, true)
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel ch)
                                 throws Exception {
-                            ch.pipeline().addLast(new TimeClientHandler());//用于处理网络IO事件
+
+                            ch.pipeline().addLast(new TimeClientHandler());
                         }
                     });
 
