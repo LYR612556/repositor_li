@@ -3,7 +3,7 @@ package com.niuke;
 import java.util.Stack;
 
 /**
- * 用两个栈实现队列
+ * 鐢ㄤ袱涓爤瀹炵幇闃熷垪
  * created by liyurong
  **/
 public class Niuke6_1 {
