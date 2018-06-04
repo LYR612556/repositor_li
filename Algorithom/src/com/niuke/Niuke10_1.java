@@ -1,8 +1,8 @@
 package com.niuke;
 
 /**
- * ±äÌ¬ÌøÌ¨½×,bianyi
- * ²©¿ÍÎ»ÖÃ£ºhttps://my.oschina.net/liyurong/blog/1630647
+ * å˜æ€è·³å°é˜¶
+ * åšå®¢ä½ç½®ï¼šhttps://my.oschina.net/liyurong/blog/1630647
  * created by liyurong
  **/
 public class Niuke10_1 {
