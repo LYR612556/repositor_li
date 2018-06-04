@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * �滻�ո�
+ * 替换空格
  * created by liyurong
  **/
 public class Niuke4_1 {
