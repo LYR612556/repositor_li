@@ -3,7 +3,7 @@ package com.niuke;
 import com.source.TreeNode;
 
 /**
- * 	树的子结构
+ * 树的子结构
  * created by liyurong
  **/
 public class Niuke18_1 {
