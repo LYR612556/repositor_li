@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 猫狗队列
+ * 猫狗队列,包装类添加时间戳
  * created by liyurong
  **/
 public class DogCatQueue {
