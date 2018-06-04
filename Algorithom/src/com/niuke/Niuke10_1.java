@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * 变态跳台阶
+ * 变态跳台阶,bianyi
  * 博客位置：https://my.oschina.net/liyurong/blog/1630647
  * created by liyurong
  **/
