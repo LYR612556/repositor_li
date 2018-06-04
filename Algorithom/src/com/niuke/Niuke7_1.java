@@ -1,7 +1,7 @@
 package com.niuke;
 
 /**
- * 旋转数组的最小数字
+ * 旋转数组的最小数字,tmp
  * created by liyurong
  **/
 public class Niuke7_1 {
