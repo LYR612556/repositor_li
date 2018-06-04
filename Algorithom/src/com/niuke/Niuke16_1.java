@@ -3,7 +3,7 @@ package com.niuke;
 import com.source.ListNode;
 
 /**
- * ·´×ªÁ´±í
+ * åè½¬é“¾è¡¨
  * created by liyurong
  **/
 public class Niuke16_1 {
