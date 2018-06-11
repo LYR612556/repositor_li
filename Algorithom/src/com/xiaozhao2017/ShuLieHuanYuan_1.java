@@ -1,13 +1,13 @@
 package com.xiaozhao2017;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
 
 /**
  * 网易——数列还原
+ * 使用标记数组获取全排列
  * created by liyurong
  **/
-public class ShuLieHuanYuan {
+public class ShuLieHuanYuan_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
